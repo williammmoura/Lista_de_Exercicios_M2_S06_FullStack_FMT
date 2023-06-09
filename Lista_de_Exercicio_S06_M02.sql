@@ -28,3 +28,12 @@ create table Categorias(
 );
 
 select * from Categorias
+
+--Modificando a tabela "Tarefas"
+alter table Tarefas
+--Adicionando uma nova coluna
+add column categoria_id,
+--Definindo uma restrição de chave estrangeira
+add constraint fk-categoria
+foreign key (categoria_id)
+references categorias (id);
