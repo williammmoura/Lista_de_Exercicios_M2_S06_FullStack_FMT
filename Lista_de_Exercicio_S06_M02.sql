@@ -19,3 +19,12 @@ create table Tarefas(
 );
 
 select * from Tarefas
+
+-- Criar tabela Categorias
+create table Categorias(
+	categorias_id int primary key,
+	nome varchar(100),
+	descricao text
+);
+
+select * from Categorias

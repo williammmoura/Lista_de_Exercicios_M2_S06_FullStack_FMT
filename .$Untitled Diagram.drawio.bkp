@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2023-06-08T22:53:47.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="90tTrL7QbnE7jCfuqffo" version="21.2.8" type="device">
+  <diagram name="Page-1" id="jvJRQ-WAPBSgkZ7VpC8o">
+    <mxGraphModel dx="614" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-1" value="Projetos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-2" value="id (Chave primaria)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-11" value="nome varchar (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-13" value="descricao varchar (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-1">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-12" value="data_inicio date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-1">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-3" value="data_prazo date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-1">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-9" value="&lt;h1&gt;&lt;p style=&quot;margin: 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Exercício 02&lt;/p&gt;&lt;p style=&quot;margin: 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Com o banco de dados e visualizador já instalados, o próximo passo antes de criar as tabelas é fazer a modelagem das nossas classes para um modelo de banco relacional&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Podemos fazê-lo através de ferramentas como o&amp;nbsp;&lt;a style=&quot;background-color: initial; color: var(--ds-link,#0052cc); text-decoration-line: none;&quot; rel=&quot;noreferrer ugc nofollow&quot; target=&quot;_blank&quot; title=&quot;‌&quot; href=&quot;http://draw.io/&quot;&gt;draw.io&lt;/a&gt;&amp;nbsp;onde escrevemos nossas classes e os relacionamentos entre elas, para podermos visualizar as colunas e chaves.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Entidades a serem modeladas: Projetos e Tarefas&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Projetos deve conter pelo menos os seguintes atributos:&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;id, nome, descrição, data_inicio , data_prazo&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;Tarefas deve conter pelo menos os seguintes atributos:&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; color: rgb(182, 194, 207); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; background-color: rgba(161, 189, 217, 0.08);&quot; dir=&quot;auto&quot;&gt;id, nome, descricao , data_inicio , data_prazo, concluida&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="40" width="640" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-14" value="Tarefas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="140" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-15" value="id (Chave primaria)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-16" value="nome varchar (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-17" value="descricao varchar (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-18" value="data_inicio date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-24" value="data_prazo date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bYaYgHfAa9LIXrY7jKHO-22" value="concluida" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bYaYgHfAa9LIXrY7jKHO-14">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
