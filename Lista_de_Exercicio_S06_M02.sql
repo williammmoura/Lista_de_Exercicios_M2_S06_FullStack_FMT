@@ -58,3 +58,19 @@ VALUES
 (3, 'Tarefa 3', 'Descrição da Tarefa 3', 2, 3, '2023-03-05', '2023-03-15', false),
 (4, 'Tarefa 4', 'Descrição da Tarefa 4', 2, 1, '2023-03-10', '2023-03-20', false),
 (5, 'Tarefa 5', 'Descrição da Tarefa 5', 3, 2, '2023-05-05', '2023-05-15', false);
+
+-- Quais tarefas já foram concluídas:
+SELECT nome
+FROM Tarefas
+WHERE concluida = true;
+
+-- Quais tarefas estão atrasadas:
+SELECT nome
+FROM Tarefas
+WHERE data_prazo < CURDATE() AND concluida = false;
+
+-- A contagem de tarefas por projeto:
+SELECT p.nome AS nome_projeto, COUNT(t.id) AS total_tarefas
+FROM Projetos p
+LEFT JOIN Tarefas t ON p.id = t.projeto_id
+GROUP BY p.nome;
